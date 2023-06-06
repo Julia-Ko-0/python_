@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "елый_ящик_питон1", "елый_ящик_питон1\елый_ящик_питон1.pyproj", "{569B2D01-A7EA-4DBC-ADF5-5F7E3CB1D48E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{569B2D01-A7EA-4DBC-ADF5-5F7E3CB1D48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569B2D01-A7EA-4DBC-ADF5-5F7E3CB1D48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C964A6D7-ADF8-493D-AFB7-0BE3865BAA11}
+	EndGlobalSection
+EndGlobal

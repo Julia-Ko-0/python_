@@ -1,0 +1,29 @@
+{
+    "questions": [
+        {
+            "question": "Who was the first person in the world to fly into space?",
+            "answers": ["Valentina Tereshkova", "Neil Armstrong", "Yuri Gagarin"],
+            "correct_answer": "3"
+        },
+        {
+            "question": "How many continents are there on Earth?",
+            "answers": ["6", "7", "5"],
+            "correct_answer": "1"
+        },
+        {
+            "question": "What do the planets of the Solar system revolve around?",
+            "answers": ["Suns", "Moons", "Lands"],
+            "correct_answer": "1"
+        },
+        {
+            "question": "What is hypertension?",
+            "answers": ["Cardiac arrhythmia", "Low blood pressure", "High blood pressure"],
+            "correct_answer": "3"
+        },
+        {
+            "question": "What number is indicated by the Roman numeral C?",
+            "answers": ["50", "100", "500"],
+            "correct_answer": "2"
+        }
+    ]
+}
