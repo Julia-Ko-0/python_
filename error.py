@@ -36,10 +36,12 @@ c ="a"
 #     print("Ничего не происходит")
 
 
-try:
-    print(1/0)
-except:
-   raise
-finally:
-    print("Ничего не происходит")
+# try:
+#     print(1/0)
+# except:
+#    raise
+# finally:
+#     print("Ничего не происходит")
 
+print("fsfsf")
+input("xxx:")
