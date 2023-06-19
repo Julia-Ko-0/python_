@@ -1,14 +1,14 @@
 import mysql.connector
 from mysql.connector import Error
 # Соединение
-def create_connection(host_name, user_name, user_password):
+def create_connection(host_name, user_name, user_password,bd):
     connect = None
     try:
         connect= mysql.connector.connect(
             host=host_name,
             user=user_name,
             passwd=user_password,
-            # database = bd
+            database = bd
         )
         print("Connection to MySQL DB successful")
     
@@ -25,7 +25,7 @@ def create_database(connection, query):
         print(f"The error '{e}' occurred")
 
 
-# сщздание таблицы
+# сщздание таблицы и заполнение таблицы
 def execute_query(connection, query):
      cursor = connection.cursor()
      try:
@@ -46,7 +46,7 @@ def execute_read_query(connection, query):
     except Error as e:
         print(f"The error '{e}' occurred")
 
-connection = create_connection("localhost","root","1234567890")
+connection = create_connection("localhost","root","1234567890","Baza_Dan")
 
 # execute_query(connection, """
 # CREATE TABLE posts (
@@ -84,13 +84,13 @@ connection = create_connection("localhost","root","1234567890")
 
 # execute_query(connection,  """
 # UPDATE
-#   posts
+#   user
 # SET
-#   description = "The weather has become pleasant now"
+#  nationality = "rus"
 # WHERE
-#   id = 2
+#   id = 1
 # """)
 
-# execute_query(connection, "DELETE FROM comments WHERE id = 5")
+# execute_query(connection, "DELETE FROM user WHERE id = 1")
 
-# create_database(connection, "CREATE DATABASE aaaa")
+# create_database(connection, "CREATE DATABASE Baza_Dan")
